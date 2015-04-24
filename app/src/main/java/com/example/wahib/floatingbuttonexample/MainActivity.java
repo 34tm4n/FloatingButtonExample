@@ -49,7 +49,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if(v.getId()==R.id.fab){
-            Toast.makeText(this,"Pressed",Toast.LENGTH_SHORT);
+            Toast.makeText(this,"Pressed",Toast.LENGTH_SHORT).show();
         }
     }
 }
